@@ -12,5 +12,12 @@
     "imgPrice": "500",
     "imgDesc": "A Sun Rise Star",
     "url": "https://raw.githubusercontent.com/NagarajDoddamani/MyArtWork_Img/main/images/About-img.jpeg"
+  },
+  {
+    "imgName": "The Place of the Hirecumbi",
+    "imgSize": "A4",
+    "imgPrice": "500",
+    "imgDesc": "Hirecumbi",
+    "url": "https://raw.githubusercontent.com/NagarajDoddamani/MyArtWork_Img/main/images/Project-5.jpg"
   }
 ]
