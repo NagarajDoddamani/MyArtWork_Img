@@ -1,23 +1,16 @@
 [
   {
-    "name": "Example Image",
-    "size": "500KB",
-    "price": "$50",
-    "description": "This is an example image.",
-    "url": "https://raw.githubusercontent.com/yourusername/image-database/main/images/example.jpg"
-  },
-  {
-    "imgName": "photo",
+    "imgName": "The Art of God",
     "imgSize": "A4",
     "imgPrice": "500",
-    "imgDesc": "it is 1st photo",
+    "imgDesc": "Glosy the Pained Form of live",
     "url": "https://raw.githubusercontent.com/NagarajDoddamani/MyArtWork_Img/main/images/Home-img.jpg"
   },
   {
-    "imgName": "photo",
+    "imgName": "The Pencil Scketc",
     "imgSize": "A4",
     "imgPrice": "500",
-    "imgDesc": "it is 1st photo",
+    "imgDesc": "A Sun Rise Star",
     "url": "https://raw.githubusercontent.com/NagarajDoddamani/MyArtWork_Img/main/images/About-img.jpeg"
   }
 ]
