@@ -1,10 +1,16 @@
 [
-    {
-        "name": "Example Image",
-        "size": "500KB",
-        "price": "$50",
-        "description": "This is an example image.",
-        "url": "https://raw.githubusercontent.com/yourusername/image-database/main/images/example.jpg"
-    }
+  {
+    "name": "Example Image",
+    "size": "500KB",
+    "price": "$50",
+    "description": "This is an example image.",
+    "url": "https://raw.githubusercontent.com/yourusername/image-database/main/images/example.jpg"
+  },
+  {
+    "imgName": "photo",
+    "imgSize": "A4",
+    "imgPrice": "500",
+    "imgDesc": "it is 1st photo",
+    "url": "https://raw.githubusercontent.com/NagarajDoddamani/MyArtWork_Img/main/images/Home-img.jpg"
+  }
 ]
-
