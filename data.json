@@ -12,5 +12,12 @@
     "imgPrice": "500",
     "imgDesc": "it is 1st photo",
     "url": "https://raw.githubusercontent.com/NagarajDoddamani/MyArtWork_Img/main/images/Home-img.jpg"
+  },
+  {
+    "imgName": "photo",
+    "imgSize": "A4",
+    "imgPrice": "500",
+    "imgDesc": "it is 1st photo",
+    "url": "https://raw.githubusercontent.com/NagarajDoddamani/MyArtWork_Img/main/images/About-img.jpeg"
   }
 ]
