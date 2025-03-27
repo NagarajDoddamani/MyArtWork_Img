@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Email with Image</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
+        form { display: inline-block; text-align: left; padding: 20px; border: 1px solid #ddd; border-radius: 5px; width: 300px; }
+        input, textarea, select { width: 100%; margin: 10px 0; padding: 10px; }
+        button { padding: 10px 20px; background-color: blue; color: white; border: none; cursor: pointer; }
+        #postAddressField { display: none; } /* Hide post address field by default */
+    </style>
+</head>
+<body>
+
+    <h2>Send Email with an Image</h2>
+
+    <form id="emailForm" action="https://formsubmit.co/nagarajcreations2005@gmail.com" method="POST" enctype="multipart/form-data">
+        
+        <!-- User Inputs -->
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="tel" name="phone" placeholder="Phone Number" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <textarea name="home_address" placeholder="Home Address" required></textarea>
+
+        <!-- Delivery Type -->
+        <label for="deliveryType">Delivery Type:</label>
+        <select name="delivery_type" id="deliveryType" required>
+            <option value="" disabled selected>Select Delivery Type</option>
+            <option value="by hand">By Hand</option>
+            <option value="by post">By Post</option>
+        </select>
+
+        <!-- Post Address (Only if "By Post" is selected) -->
+        <div id="postAddressField">
+            <textarea name="post_address" placeholder="Enter Post Address"></textarea>
+        </div>
+
+        <!-- Artwork Details -->
+        <input type="text" name="art_size" placeholder="Size of Artwork (e.g. A4, A3)" required>
+
+        <label for="artType">Type of Artwork:</label>
+        <select name="art_type" id="artType" required>
+            <option value="" disabled selected>Select Artwork Type</option>
+            <option value="paint">Paint</option>
+            <option value="pencil sketch">Pencil Sketch</option>
+        </select>
+
+        <!-- File Upload -->
+        <label for="file">Upload Image:</label>
+        <input type="file" name="attachment" id="file" accept="image/*" required>
+
+        <!-- Prevent Captcha -->
+        <input type="hidden" name="_captcha" value="false">
+
+        <!-- Redirect after submission (optional) -->
+        <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
+
+        <button type="submit">Send Email</button>
+    </form>
+
+    <script src="order.js"></script>
+
+</body>
+</html>
