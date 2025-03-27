@@ -11,21 +11,24 @@
     "imgSize": "A4",
     "imgPrice": "500",
     "imgDesc": "This is the Pencil Sketch of the 2 People,\nThis is a A4 size Drawing in the pome paper",
-    "url": "https://raw.githubusercontent.com/NagarajDoddamani/MyArtWork_Img/main/images/Monesha.jpg"
+    "url": "https://raw.githubusercontent.com/NagarajDoddamani/MyArtWork_Img/main/images/Monesha.jpg",
+    "likes": 0
   },
   {
     "imgName": "The Family Photo",
     "imgSize": "A4",
     "imgPrice": "500",
     "imgDesc": "it is the Grope Phot of the Family,\nThis is drawn in the Foam Paper, This is Without Frame.",
-    "url": "https://raw.githubusercontent.com/NagarajDoddamani/MyArtWork_Img/main/images/Ishvarya.jpg"
+    "url": "https://raw.githubusercontent.com/NagarajDoddamani/MyArtWork_Img/main/images/Ishvarya.jpg",
+    "likes": 0
   },
   {
     "imgName": "The Boy with NS120 Bike",
     "imgSize": "A4",
     "imgPrice": "500",
     "imgDesc": "it is the Pencil Sketch Art Work of My Friend,\nit is Drawn in the Foam Paper and Down with the Shading.",
-    "url": "https://raw.githubusercontent.com/NagarajDoddamani/MyArtWork_Img/main/images/img20080630_00053957.jpg"
+    "url": "https://raw.githubusercontent.com/NagarajDoddamani/MyArtWork_Img/main/images/img20080630_00053957.jpg",
+    "likes": 0
   },
   {
     "imgName": "The Boy with Car",
