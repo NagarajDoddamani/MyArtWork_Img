@@ -1,0 +1,124 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    background: #333;
+    color: white;
+    padding: 15px;
+    margin: 0;
+}
+/* Navigation Bar */
+nav {
+    background: #333;
+    padding: 15px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+nav a:hover {
+    background: red;
+    border-radius: 5px;
+}
+/* Social Media */
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+.social-icons a {
+    display: inline-block;
+    margin: 30px;
+    padding: 10px;
+    color: white;
+    width: 120px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.youtube { background: red; }
+.instagram { background: #d917cf; }
+.linkedin { background: #0077b5; }
+.whatsapp { background: #25d366; }
+.portfolio {background:rgb(248, 195, 50);}
+/* Gallery Container */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    padding: 15px;
+    max-width: 300px;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
+.card h3 {
+    margin: 10px 0;
+}
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Buttons */
+.btn {
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.like-btn {
+    background: red;
+    color: white;
+}
+.like-btn.liked {
+    background: gray;
+}
+.share-btn {
+    background: blue;
+    color: white;
+}
+
+/* Contact Us */
+.contact {
+    background: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        padding: 8px;
+    }
+}
+
+/*
+@media (max-width: 600px) {
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+} */
