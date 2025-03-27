@@ -12,5 +12,12 @@
     "imgPrice": "500",
     "imgDesc": "This is the Pencil Sketch of the 2 People,\nThis is a A4 size Drawing in the pome paper",
     "url": "https://raw.githubusercontent.com/NagarajDoddamani/MyArtWork_Img/main/images/Monesha.jpg"
+  },
+  {
+    "imgName": "The Family Photo",
+    "imgSize": "A4",
+    "imgPrice": "500",
+    "imgDesc": "it is the Grope Phot of the Family,\nThis is drawn in the Foam Paper, This is Without Frame.",
+    "url": "https://raw.githubusercontent.com/NagarajDoddamani/MyArtWork_Img/main/images/Ishvarya.jpg"
   }
 ]
