@@ -1,7 +1,7 @@
 
 const GITHUB_USERNAME = "NagarajDoddamani";  
 const REPO_NAME = "MyArtWork_Img";  
-const ACCESS_TOKEN = "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";  
+const ACCESS_TOKEN = "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";  
 
 const validAdmins = [
     { username: "doddamaninagaraj5", password: "Nagaraj@Laxmi@197525" },
