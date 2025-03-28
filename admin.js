@@ -1,12 +1,12 @@
 
 const GITHUB_USERNAME = "NagarajDoddamani";  
 const REPO_NAME = "MyArtWork_Img";  
-const ACCESS_TOKEN = "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";  
+const ACCESS_TOKEN = "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";  
 
 const validAdmins = [
     { username: "doddamaninagaraj5", password: "Nagaraj@Laxmi@197525" },
-    { username: "admin2", password: "Prabhu@2005" },
-    { username: "admin3", password: "Akash@2005" }
+    { username: "prabhukumar", password: "Prabhu@2005" },
+    { username: "akashbelahar", password: "Akash@2005" }
 ];
 
 function authenticate() {
@@ -48,8 +48,14 @@ async function uploadImage() {
         if (uploadResponse) {
             // Fetch and update metadata
             let metadata = await fetchMetadata();
-            metadata.push({ imgName, imgSize, imgPrice, imgDesc, url: `https://raw.githubusercontent.com/${GITHUB_USERNAME}/${REPO_NAME}/main/${imagePath}` });
-
+            metadata.push({ 
+                imgName, 
+                imgSize, 
+                imgPrice, 
+                imgDesc, 
+                url: `https://raw.githubusercontent.com/${GITHUB_USERNAME}/${REPO_NAME}/main/${imagePath}`,
+                likes: 0  // Initialize likes to 0
+            });
             let metadataString = JSON.stringify(metadata, null, 2);
             let uploadMetadataResponse = await uploadToGitHub(metadataPath, btoa(metadataString));
 
